@@ -1,18 +1,22 @@
 {
-  "name": "entrega-3",
+  "name": "preentrega2",
   "version": "1.0.0",
   "description": "",
-  "main": "dasafio3.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon scr/dasafio3.js/app.js",
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "mongoose-paginate-v2": "^1.8.1"
+  },
   "devDependencies": {
     "nodemon": "^3.1.0"
-  },
-  "dependencies": {
-    "Express": "^3.0.1"
   }
 }
